@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+		<title>URL Loader</title>
+
+
+<script>
+
+		function myFunction(){
+
+
+	let websiteWHurl = prompt("Website Nme?");	
+		
+		console.log(websiteWHurl)
+		let websiteWurl = ("http://" + websiteWHurl + '.com')
+		window.open(websiteWurl)
+		console.log(websiteWurl)
+
+
+	}
+						
+		</script>
+		<center>
+
+
+	<style>
+
+		body {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+			.button {
+			background-color:black;
+			border-color:white
+			color:white;
+			font-size:18px;
+			border:double;
+			 animation: fadeIn linear 2s;
+  		-webkit-animation: fadeIn linear 2s;
+  		-moz-animation: fadeIn linear 2s;
+  		-o-animation: fadeIn linear 2s;
+ 	    -ms-animation: fadeIn linear 2s;
+
+
+
+	</style>	
+		<style>
+
+	.text {
+		font-size:20px;
+		border:double;
+	    animation: fadeIn linear 2s;
+  		-webkit-animation: fadeIn linear 2s;
+  		-moz-animation: fadeIn linear 2s;
+  		-o-animation: fadeIn linear 2s;
+ 	    -ms-animation: fadeIn linear 2s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:0.32;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
+	
+	</style>
+
+
+		<p class="text">Note: Websites with custom domains will not work. (like .app, .net,.org etc.)</p>  	
+		</body>
+		</html>
+			<button style="color:white;"class="button"onclick='myFunction()'>Enter Website Name</button>
+
